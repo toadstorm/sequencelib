@@ -29,3 +29,9 @@ You can optionally define a start, end, and framestep manually:
 ```
 print(mySeq.find_missing_frames(1, 100, 1))
 ```
+
+If you want to just blast out everything about a specific Sequence object:
+
+```
+mySeq.debug()
+```
