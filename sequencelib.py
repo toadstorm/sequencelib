@@ -1,3 +1,10 @@
+"""
+sequencelib by henry foster, henry@toadstorm.com
+A library of tools for collating and manipulating sequences of files.
+"""
+
+
+
 import os
 import re
 import decimal
@@ -227,8 +234,4 @@ def find_sequences(path, extensions=None):
     return sequences
 
 
-if __name__ == '__main__':
-    test = find_sequences("C:/Users/Henry/Projects/VFX/rain_leaves/houdini")
-    if test:
-        for seq in test:
-            print(seq.debug())
+
