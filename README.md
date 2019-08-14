@@ -10,7 +10,7 @@ To search a directory for file sequences:
 ```
 seqs = sequencelib.find_sequences("/path/to/files")
 # or optionally with a file extension mask:
-seqs = sequencelib.find_sequences("/path/to/files", extensions=['jpg','tif','png','exr'])
+seqs = sequencelib.find_sequences("/path/to/files", extensions=["jpg","tif","png","exr"])
 ```
 
 This returns a list of Sequence objects. To see a list of file paths in each sequence:
